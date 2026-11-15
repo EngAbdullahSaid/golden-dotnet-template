@@ -1,0 +1,34 @@
+name: 'Epic'
+description: 'Create a Epic issue'
+title: '[Epic] '
+labels: ['epic']
+body:
+  - type: textarea
+    id: field1
+    attributes:
+      label: 'Goal'
+    validations:
+      required: true
+  - type: textarea
+    id: field2
+    attributes:
+      label: 'Scope'
+    validations:
+      required: true
+  - type: textarea
+    id: field3
+    attributes:
+      label: 'Child features'
+    validations:
+      required: true
+  - type: textarea
+    id: field4
+    attributes:
+      label: 'Success measures'
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related IDs
+      description: Requirement, use case, ADR or parent issue IDs (for example FR-001, UC-001).

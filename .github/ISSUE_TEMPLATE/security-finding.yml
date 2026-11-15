@@ -1,0 +1,28 @@
+name: 'Security Finding'
+description: 'Create a Security Finding issue'
+title: '[Security] '
+labels: ['security']
+body:
+  - type: textarea
+    id: field1
+    attributes:
+      label: 'Finding (do not include secrets or exploit details publicly)'
+    validations:
+      required: true
+  - type: textarea
+    id: field2
+    attributes:
+      label: 'Severity and impact'
+    validations:
+      required: true
+  - type: textarea
+    id: field3
+    attributes:
+      label: 'Recommended remediation'
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related IDs
+      description: Requirement, use case, ADR or parent issue IDs (for example FR-001, UC-001).

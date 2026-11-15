@@ -1,0 +1,28 @@
+name: 'Feature'
+description: 'Create a Feature issue'
+title: '[Feature] '
+labels: ['feature']
+body:
+  - type: textarea
+    id: field1
+    attributes:
+      label: 'Description'
+    validations:
+      required: true
+  - type: textarea
+    id: field2
+    attributes:
+      label: 'Acceptance criteria'
+    validations:
+      required: true
+  - type: textarea
+    id: field3
+    attributes:
+      label: 'Dependencies'
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related IDs
+      description: Requirement, use case, ADR or parent issue IDs (for example FR-001, UC-001).

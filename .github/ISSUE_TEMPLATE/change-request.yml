@@ -1,0 +1,28 @@
+name: 'Change Request'
+description: 'Create a Change Request issue'
+title: '[CR] '
+labels: ['change-request']
+body:
+  - type: textarea
+    id: field1
+    attributes:
+      label: 'Requested change'
+    validations:
+      required: true
+  - type: textarea
+    id: field2
+    attributes:
+      label: 'Reason'
+    validations:
+      required: true
+  - type: textarea
+    id: field3
+    attributes:
+      label: 'Impact on scope, cost and schedule'
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related IDs
+      description: Requirement, use case, ADR or parent issue IDs (for example FR-001, UC-001).

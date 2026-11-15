@@ -1,0 +1,34 @@
+name: 'Business Case'
+description: 'Create a Business Case issue'
+title: '[BC] '
+labels: ['business-case']
+body:
+  - type: textarea
+    id: field1
+    attributes:
+      label: 'Problem'
+    validations:
+      required: true
+  - type: textarea
+    id: field2
+    attributes:
+      label: 'Options'
+    validations:
+      required: true
+  - type: textarea
+    id: field3
+    attributes:
+      label: 'Costs and benefits'
+    validations:
+      required: true
+  - type: textarea
+    id: field4
+    attributes:
+      label: 'Risks'
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related IDs
+      description: Requirement, use case, ADR or parent issue IDs (for example FR-001, UC-001).

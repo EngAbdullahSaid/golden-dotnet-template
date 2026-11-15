@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Golden.SharedKernel/Golden.SharedKernel.csproj" />
+    <Project Path="src/Golden.Web/Golden.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Sample/">
+    <Project Path="src/Modules/Sample/Golden.Modules.Sample.Application/Golden.Modules.Sample.Application.csproj" />
+    <Project Path="src/Modules/Sample/Golden.Modules.Sample.Contracts/Golden.Modules.Sample.Contracts.csproj" />
+    <Project Path="src/Modules/Sample/Golden.Modules.Sample.Domain/Golden.Modules.Sample.Domain.csproj" />
+    <Project Path="src/Modules/Sample/Golden.Modules.Sample.Infrastructure/Golden.Modules.Sample.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Golden.ArchitectureTests/Golden.ArchitectureTests.csproj" />
+    <Project Path="tests/Golden.Modules.Sample.Tests/Golden.Modules.Sample.Tests.csproj" />
+  </Folder>
+</Solution>
